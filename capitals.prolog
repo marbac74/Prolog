@@ -1,4 +1,4 @@
-% File capitals.pro
+% File capitals.prolog
 % Knowledge base of states and capitals
 
 :- dynamic(capital_of/2).
