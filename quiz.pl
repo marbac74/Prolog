@@ -91,6 +91,7 @@ askq :-
 
 result :-
     myscore(My, Max),
+    retractall(title(_)),
     quiz(File),
     in_range(My, Feedback),
     swritef(String, 'Hai ottenuto %w punti su %w', [My, Max]),
