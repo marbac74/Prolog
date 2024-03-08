@@ -1,4 +1,5 @@
 :- use_module(library(pce)).
+:- dynamic range/3, quiz/1, myscore/2, question/4, title/1.
 
 setup_run(File) :-
     assertz(quiz(File)),
